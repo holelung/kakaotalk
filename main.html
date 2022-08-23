@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4a1c02ccce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>kakaoTalk</title>
+</head>
+<body>
+    <div id="header">
+        <span id="header_item config" alt="config" title="config"><i class="fa-solid fa-gear"></i></span>
+        <span id="header_item min" alt="minimize" title="minimize"><i class="fa-solid fa-minus"></i></span>
+        <sapn id="header_item close" alt="close" title="close"><i class="fa-solid fa-xmark"></i></span>
+    </div>
+    <div id="wrap">
+        <div id="logo">
+            <img src="kakaotalk_logo.png" alt="logo" id="logo">
+        </div>
+        <section class="login_form">
+            <form name="loginform" action="#" method="post">
+                <p id="inputbox_id"><input type="text" name="id" id="input_id" value="계정"></p>
+                <p id="inputbox_password"><input type="text" name="password" id="input_password" value="비밀번호"></p>
+                <p><input type="submit" value="로그인" id="login_button"></p>
+                <p><input type="checkbox" name="auto_login" id="auto_login">자동로그인</p>
+            </form>
+        </section>
+        <section class="forget">
+            <p>카카오계정 찾기</p>
+            <p>비밀번호 재설정</p>
+        </section>
+    </div>   
+</body>
+</html>

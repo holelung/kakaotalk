@@ -1,0 +1,54 @@
+body{
+    background-color: #f5df23;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+}
+#header > *{
+    margin: 5px;
+}
+#header > *:nth-child(2){
+    padding-left: 10px;
+    border-left: 1px solid rgb(163, 163, 163);
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    margin: 0 auto;
+    margin-top: 4vh;
+    height: 30vh;
+}
+
+.login_form{
+    display: flex;
+    justify-content: center;
+}
+#input_id{
+    width: 60vw;
+    height: 35px;
+}
+#input_password{
+    width: 60vw;
+    height: 35px;
+}
+#inputbox_id{
+    margin-bottom: 0;
+}
+#inputbox_password{
+    margin-top: 0;
+}
+#login_button{
+    width: 60vw;
+    height: 35px;
+}
+
+.forget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
